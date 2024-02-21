@@ -17,7 +17,9 @@ import android.view.ViewGroup;
 import com.example.notes.R;
 import com.example.notes.databinding.FragmentAddOrEditNoteBinding;
 
+import dagger.hilt.android.AndroidEntryPoint;
 
+@AndroidEntryPoint
 public class AddOrEditNoteFragment extends Fragment {
 
     private final AddNoteMenuProvider addNoteMenuProvider = new AddNoteMenuProvider();

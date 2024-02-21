@@ -13,7 +13,9 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.notes.R;
 import com.example.notes.databinding.FragmentListNoteBinding;
 
+import dagger.hilt.android.AndroidEntryPoint;
 
+@AndroidEntryPoint
 public class ListNoteFragment extends Fragment {
 
     private FragmentListNoteBinding binding;
