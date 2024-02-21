@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/list_note_placeholder">
+
+    <fragment
+        android:id="@+id/list_note_placeholder"
+        android:name="com.example.notes.presentation.list_note.ListNoteFragment"
+        android:label="@string/notes"
+        tools:layout="@layout/fragment_list_note"
+        >
+        <action
+            android:id="@+id/action_list_note_placeholder_to_add_note_placeholder"
+            app:destination="@id/add_note_placeholder" />
+        <action
+            android:id="@+id/action_list_note_placeholder_to_edit_note_placeholder"
+            app:destination="@id/edit_note_placeholder" />
+    </fragment>
+    <fragment
+        android:id="@+id/add_note_placeholder"
+        android:name="com.example.notes.presentation.add_or_edit_note.AddOrEditNoteFragment"
+        android:label="@string/add"
+        tools:layout="@layout/fragment_add_or_edit_note"
+        />
+    <fragment
+        android:id="@+id/edit_note_placeholder"
+        android:name="com.example.notes.presentation.add_or_edit_note.AddOrEditNoteFragment"
+        android:label="@string/edit"
+        tools:layout="@layout/fragment_add_or_edit_note"
+        >
+        <argument android:name="uid"
+            app:argType="integer" />
+    </fragment>
+</navigation>
