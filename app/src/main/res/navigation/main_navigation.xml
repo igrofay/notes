@@ -30,7 +30,8 @@
         android:label="@string/edit"
         tools:layout="@layout/fragment_add_or_edit_note"
         >
-        <argument android:name="uid"
+        <argument
+            android:name="uid"
             app:argType="integer" />
     </fragment>
 </navigation>

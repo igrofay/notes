@@ -2,9 +2,13 @@
     <string name="app_name">Notes</string>
     <string name="action_settings">Настройки</string>
     <string name="notes">Заметки</string>
+    <string name="write_something">Напишите что нибудь</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="add">Добавить</string>
     <string name="edit">Редактировать</string>
+    <string name="last_edit">Последнее изменение</string>
+    <string name="no_additional_text">Нет дополнительного текста</string>
     <string name="give_access_to_microphone">Дайте доступ к микрофону</string>
+
 </resources>

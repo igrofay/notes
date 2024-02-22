@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".presentation.add_or_edit_note.AddOrEditNoteFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_edit_text_note"
         android:layout_width="match_parent"
@@ -25,13 +24,14 @@
             android:layout_marginBottom="120dp"
             android:background="@android:color/transparent"
             android:gravity="top"
+            android:hint="@string/write_something"
             android:inputType="textMultiLine"
             tools:ignore="LabelFor" />
     </androidx.core.widget.NestedScrollView>
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/specking_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"

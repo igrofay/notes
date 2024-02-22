@@ -1,11 +1,9 @@
 package com.example.notes.domain.model;
 
 import java.util.Date;
-import java.util.UUID;
 
-public interface NoteItemModel {
+public interface NoteModel {
     Integer getUID();
-    String getTitle();
     String getText();
     Date getLastEditDate();
 }
